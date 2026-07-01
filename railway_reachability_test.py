@@ -22,7 +22,7 @@ print("RAILWAY DATA SOURCE REACHABILITY TEST")
 print("=" * 50)
 
 # --- Test 1: Yahoo Finance via yfinance ---
-print("\n[1/2] Testing Yahoo Finance (yfinance)...")
+print("\n[1/3] Testing Yahoo Finance (yfinance)...")
 try:
     import yfinance as yf
     df = yf.download("BTC-USD", period="5d", interval="1d", progress=False)
